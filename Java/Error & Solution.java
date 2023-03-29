@@ -6,12 +6,32 @@
     -Expand “Web, XML, and Java EE Development” and select "JST Server adapters extensions"
 
 
-1) I had the same issue. I was using eclipse platform and server was missing in my show view.
+2) 
    Steps:
    
-1) I had the same issue. I was using eclipse platform and server was missing in my show view.
+3) 
    Steps:
    
+4) 
+   Steps:
+
+5) 
+   Steps:
+
+6) 
+   Steps:
+
+7) 
+   Steps:
+
+8) 
+   Steps:
+
+9) 
+   Steps:
+
+10) 
+   Steps:
    
 
 
