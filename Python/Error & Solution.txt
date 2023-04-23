@@ -1,1 +1,14 @@
-
+>>  .\venv\Scripts\activate
+    .\venv\Scripts\activate : File C:\Users\kumar\Desktop\ResApi\venv\Scripts\Activate.ps1 cannot 
+    be loaded because running scripts is disabled on this system. For more information, see         
+    about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
+    At line:1 char:1
+    + .\venv\Scripts\activate
+    + ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+    
+    Step-1:
+    open powershell
+    step-2:
+    write "Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted"
