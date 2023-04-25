@@ -11,12 +11,23 @@
       -Help-->installation details
       
    
-3) 
+3) Server Option is not Showing in Eclipse:
    Steps:
+      -Open Eclipse and move move 
+       [window -> show view -> ohters -> show views menu select ->other[If here "server" is not showing]
+     -Check current version of Eclipse
+     -Open the below like given and select your version and copy urls link.
+     -move some other menu:
+       [help -> install new software -> Avilable software ->work with -><past copy link>
+     -select web,xml,java,EE and OSGI enterprises Deelopment->next and finished
+       
    
 
-4) 
+4) Tomcat configure in Eclipse:
    Steps:
+       -Open Eclipse
+        [window -> show view -> other view -> server ->open 
+        
 
 
 5) 
