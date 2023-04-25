@@ -13,7 +13,7 @@
    
 3) Server Option is not Showing in Eclipse:
    Steps:
-      -Open Eclipse and move move 
+     -Open Eclipse and move move 
        [window -> show view -> ohters -> show views menu select ->other[If here "server" is not showing]
      -Check current version of Eclipse
      -Open the below like given and select your version and copy urls link.
@@ -30,8 +30,14 @@
         
 
 
-5) 
+5) Set Servlet-api.jar file path:
    Steps:
+      -open Eclipse:
+       right click project explore->properties ->java build path ->select class path -> Add External jarfile
+ 
+      After moving 
+      C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib -> Select ->servlet-api.jar file ->Apply and close
+         
 
 
 6) 
