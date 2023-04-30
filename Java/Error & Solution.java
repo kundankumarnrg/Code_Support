@@ -35,8 +35,11 @@
       After moving 
       C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib -> Select ->servlet-api.jar file ->Apply and close
          
->> 
+>> Package accessible from more than one module: <unnamed>
    Steps:
+      -Right click Eclipse project > Properties > Java Build Path
+      -In Libraries tab, remove all the external jar files under Modulepath and add them under Classpath (you can just select all the jars and drag them under Classpath)
+      -Click Apply and Close
          
          
 >> 
