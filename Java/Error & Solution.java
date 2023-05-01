@@ -47,10 +47,10 @@
 
 
 >>How to import class automatically in Eclipse. 
-   Steps:
-      In Eclipse, to import a single class, you may clicked on the class and press shortcut key “Ctrl + Space” to prompt all the available classes to import. 
-         
-      Eclipse comes with a nice feature called “Organize Imports” to imports all the classes that are used, automatically.
+   
+      >In Eclipse, to import a single class, you may clicked on the class and press shortcut key “Ctrl + Space” to prompt all the available classes to import. 
+   
+      >Eclipse comes with a nice feature called “Organize Imports” to imports all the classes that are used, automatically.
       -Right click current file.
       -select source
       -Organize Imports
