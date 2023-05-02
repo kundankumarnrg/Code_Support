@@ -47,7 +47,7 @@
          -select block of code -> right click -> source ->Add block comment
          
      >Second way:
-         -ctrl+shipt+"/"
+         -ctrl+shift+/
    
 
 
