@@ -42,8 +42,13 @@
       -Click Apply and Close
          
          
->> 
-   Steps:
+>> How to comment multiple lines in Eclipse.
+      >First way:
+         -select block of code -> right click -> source ->Add block comment
+         
+     >Second way:
+         -ctrl+shipt+"/"
+   
 
 
 >>How to import class automatically in Eclipse. 
