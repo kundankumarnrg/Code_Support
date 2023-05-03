@@ -1,17 +1,22 @@
->> 
+>> fuction called another name:
+ def show_record(name):
+        print(name)
+   
+   show_record(name="sunil")
+   display_record=show_record
+   display_record(name="krishana")
+
+
+
+>>dict key rename:
+  dic[new_key]=dic.pop(old_key)
 
 
 
 
-
->> 
-
-
-
-
-
->> 
-
+>>How to Indent and Dedent Your Python Code
+  Indent- ctrl+]
+  Deindent- ctrl+[ 
 
 
 
