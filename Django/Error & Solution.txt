@@ -1,1 +1,286 @@
 
+>>How to Install Django Virtual Environment.
+  
+  following step:
+    step1:Open cmd
+        win+r-->cmd
+
+    setp2:Install Virtual Enviroment Wrapper
+        pip install virtualenvwrapper-win
+
+    step3:Create Virtual Environment(VE)
+        mkvirtualenv <foldername>
+
+    step4:Install django
+        pip install django==<version name>
+ 
+
+
+
+
+>>TypeError: unsupported operand type(s) for /: 'str' and 'str' 
+  DATABASES = {
+  'default': {
+      'ENGINE': 'django.db.backends.sqlite3',
+      #'NAME': BASE_DIR / 'db.sqlite3',               comment this line of code or remove
+      'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),   add this line of code
+      }
+     }
+
+
+
+
+
+>>TemplateSyntaxError at / 'staticfiles' is not a registered tag library. Must be one of:
+  if you write this one :
+  {% load staticfiles %} #remove this
+
+  Then remove upper code and write below code 
+  {% load staticf %} #use this one
+
+
+
+
+
+>>Django html and css link code: 
+  Note:
+    templates
+    static
+    
+    HTML:
+    setting.py
+    import os
+    TEMPLATE_DIR =os.path.join(BASE_DIR,'templates') 
+    
+    templates:
+    DIR=[]
+    os.path.join(BASE_DIR,'templates'
+    
+    
+    
+    CSS:
+    1:html page:
+    <!DOCTYPE html>
+    {% load static %}
+    
+    2:link css:
+    <link rel="stylesheet" href="{% static "css/login.css" %} " />
+    <title>login Page</title>
+    
+    3:setting code:
+    STATIC_DIR = [os.path.join(BASE_DIR,'static')]
+
+
+
+
+>> 
+
+
+
+
+
+>> 
+
+
+
+
+
+>> 
+
+
+
+
+
+>>
+
+
+
+
+
+>> 
+
+
+
+
+
+>> 
+
+
+
+
+
+>> 
+
+
+
+
+
+>>
+
+
+
+
+
+>>
+
+
+
+
+
+>> 
+
+
+
+
+
+>> 
+
+
+
+
+
+>>
+
+
+
+
+
+>> 
+
+
+
+
+
+>> 
+
+
+
+
+
+>> 
+
+
+
+
+
+>>
+
+
+
+
+
+>> 
+
+
+
+
+
+>> 
+
+
+
+
+
+>> 
+
+
+
+
+
+>>
+
+
+
+
+
+>> 
+
+
+
+
+
+>> 
+
+
+
+
+
+>> 
+
+
+
+
+
+>>
+
+
+
+
+
+>> 
+
+
+
+
+
+>> 
+
+
+
+
+
+>> 
+
+
+
+
+
+>>
+
+
+
+
+
+>> 
+
+
+
+
+
+>> 
+
+
+
+
+
+>> 
+
+
+
+
+
+>>
+
+
+
+
+
+>> 
+
+
+
+
+
+>> 
+
+
+
+
+
+>> 
+
+
+
+
+
+>>
