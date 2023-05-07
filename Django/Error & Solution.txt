@@ -81,7 +81,10 @@
 
 
 
->> 
+>>import mysql.connector as sql ModuleNotFoundError: No module named 'mysql'
+  To install mysql connector:
+  pip install mysql-connector-python
+  Restart your editor
 
 
 
