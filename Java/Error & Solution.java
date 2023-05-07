@@ -61,7 +61,11 @@
       -Organize Imports
 
 
->> The superclass "javax.servlet.http.HttpServlet" was not found on the Java Build Path [duplicate].
+>> Multiple annotations found at this line: - The superclass "javax.servlet.http.HttpServlet", determined from the Dynamic Web Module facet version (4.0), 
+   was not found on the Java Build Path - The superclass "javax.servlet.http.HttpServlet", determined from the Dynamic Web Module facet version (4.0), 
+   was not found on the Java Build Path.
+         OR
+   [The superclass "javax.servlet.http.HttpServlet" was not found on the Java Build Path [duplicate].]
    Steps:
       the first string where place
       <%@ page language="java" contentType="text/html; charset=UTF-8"
