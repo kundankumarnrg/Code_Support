@@ -61,8 +61,11 @@
       -Organize Imports
 
 
->> 
+>> The superclass "javax.servlet.http.HttpServlet" was not found on the Java Build Path [duplicate].
    Steps:
+      the first string where place
+      <%@ page language="java" contentType="text/html; charset=UTF-8"
+       pageEncoding="UTF-8"%>
 
 
 >> 
