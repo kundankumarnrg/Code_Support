@@ -74,7 +74,7 @@
 
 
 >> How to automatically write html structure?
-   Shift+[!1] press enter
+   Shift+[!1] press Tab
 
 
 
